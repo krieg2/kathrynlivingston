@@ -1,4 +1,4 @@
-html{
+html {
   position: relative;
   min-height: 100%;
 }
@@ -8,6 +8,9 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   color: #777777;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .navbar {
@@ -33,8 +36,15 @@ body {
 
 #bloggerImg {
   border: none;
+  margin: 0.5em;
   height: 40px;
   width: 150px;
+}
+
+#portrait, #bookCover {
+  height: 300px;
+  width: 224px;
+  border: 2px solid white;
 }
 
 .footer {
