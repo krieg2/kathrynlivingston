@@ -17,14 +17,57 @@ body {
   background: transparent;
 }
 
-#top {
+.navbar-toggler {
+  background-color: grey;
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 1px 1px black;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+  color: white;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover {
+  color: #8D62C3;
+  text-shadow: 2px 1px 1px black;
+}
+
+.navbar-nav > .nav-item.active > .nav-link {
+  color: #d4b2ff;
+  text-shadow: 2px 1px 1px black;
+}
+
+.top-about {
+  background: url("../images/pexels-photo-223022.jpeg");
+}
+
+.top-books {
+  background: url("../images/pexels-photo-256455.jpeg");
+}
+
+.top-sample {
+  background: url("../images/pexels-photo-407294.jpeg");
+}
+
+.top-home {
+  height: 400px;
   background: url("../images/pexels-photo-130304.jpeg");
+}
+
+.top {
+  height: 270px;
+  background-position: bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
-  width: 100%;
-  height: 400px;
+  width: 100%; 
   z-index: -1;
 }
 
