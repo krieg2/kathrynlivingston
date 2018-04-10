@@ -90,14 +90,6 @@ body {
   border: 2px solid white;
 }
 
-#credit {
-  position: absolute;
-  left: 21%;
-  bottom: 0;
-  font-weight: 100;
-  font-size: 12px;
-}
-
 .footer {
   color: #fff;
   font-size: 16px;
