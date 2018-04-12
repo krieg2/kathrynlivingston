@@ -45,18 +45,22 @@ body {
 }
 
 .top-about {
+  height: 270px;
   background: url("../images/pexels-photo-223022.jpeg");
 }
 
 .top-books {
+  height: 270px;
   background: url("../images/pexels-photo-256455.jpeg");
 }
 
 .top-sample {
+  height: 270px;
   background: url("../images/pexels-photo-407294.jpeg");
 }
 
 .top-yoga {
+  height: 270px;
   background: url("../images/adventure-balance-balanced-7640.jpg");
 }
 
@@ -66,12 +70,11 @@ body {
 }
 
 .top {
-  height: 270px;
   background-position: bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%; 
+  width: 100%;
   z-index: -1;
 }
 
@@ -96,7 +99,7 @@ body {
 
 .footer {
   color: #fff;
-  font-size: 16px;
+  font-size: calc(1vw + 1vh);
   text-align: center;
   padding: 20px;
   position: absolute;
