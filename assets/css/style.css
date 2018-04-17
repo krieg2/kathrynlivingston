@@ -95,6 +95,7 @@ body {
   height: 300px;
   width: 224px;
   border: 2px solid white;
+  border-radius: 5px;
 }
 
 .footer {
