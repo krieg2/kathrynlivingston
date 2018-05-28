@@ -91,16 +91,11 @@ body {
   width: 150px;
 }
 
-#bloggerDiv {
-  display: none;
-}
-
 #portrait, #bookCover {
   height: 300px;
   width: 224px;
   border: 2px solid white;
   border-radius: 5px;
-  display: none;
 }
 
 .footer {
